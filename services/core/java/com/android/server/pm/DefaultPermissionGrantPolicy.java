@@ -706,6 +706,7 @@ final class DefaultPermissionGrantPolicy {
             grantRuntimePermissionsLPw(smsPackage, PHONE_PERMISSIONS, userId);
             grantRuntimePermissionsLPw(smsPackage, CONTACTS_PERMISSIONS, userId);
             grantRuntimePermissionsLPw(smsPackage, SMS_PERMISSIONS, userId);
+	    grantRuntimePermissionsLPw(smsPackage, STORAGE_PERMISSIONS, true, userId)
         }
     }
 
